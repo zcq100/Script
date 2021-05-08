@@ -1,4 +1,4 @@
-/*
+/****** 
 百度贴吧签到脚本
 
 脚本修改自: https://github.com/sazs34/TaskConfig
@@ -51,7 +51,7 @@ http-request https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login sc
 hostname= c.tieba.baidu.com
 
 
-*/
+*****/
 var $nobyda = nobyda();
 var cookieVal = $nobyda.read("CookieTB");
 var useParallel = 0; //0自动切换,1串行,2并行(当贴吧数量大于30个以后,并行可能会导致QX崩溃,所以您可以自动切换)
