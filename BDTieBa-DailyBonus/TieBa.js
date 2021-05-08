@@ -52,7 +52,7 @@ http-request https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login sc
 hostname= c.tieba.baidu.com
 
 
-*****/
+*/
 
 var $nobyda = nobyda();
 var cookieVal = $nobyda.read("CookieTB");
