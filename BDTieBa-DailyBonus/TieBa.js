@@ -1,4 +1,5 @@
 /*****
+
 百度贴吧签到脚本
 
 脚本修改自: https://github.com/sazs34/TaskConfig
@@ -52,6 +53,7 @@ hostname= c.tieba.baidu.com
 
 
 *****/
+
 var $nobyda = nobyda();
 var cookieVal = $nobyda.read("CookieTB");
 var useParallel = 0; //0自动切换,1串行,2并行(当贴吧数量大于30个以后,并行可能会导致QX崩溃,所以您可以自动切换)
@@ -101,7 +103,7 @@ function signTieBa() {
     $nobyda.notify("贴吧签到", "签到失败", "未获取到cookie");
     return $nobyda.done()
   }
-  $nobyda.get(url_fetch_sign, function(error, response, data) {
+  $nobyda.get(url_fetch_sign, function (error, response, data) {
     if (error) {
       $nobyda.notify("贴吧签到", "签到失败", "未获取到签到列表");
       $nobyda.done()
@@ -142,7 +144,7 @@ function signBar(bar, tbs) {
     checkIsAllProcessed();
   } else {
     url_fetch_add.body = `tbs=${tbs}&kw=${bar.forum_name}&ie=utf-8`;
-    $nobyda.post(url_fetch_add, function(error, response, data) {
+    $nobyda.post(url_fetch_add, function (error, response, data) {
       if (error) {
         process.result.push({
           bar: bar.forum_name,
@@ -194,7 +196,7 @@ function signBars(bars, tbs, index) {
       signBars(bars, tbs, ++index);
     } else {
       url_fetch_add.body = `tbs=${tbs}&kw=${bar.forum_name}&ie=utf-8`;
-      $nobyda.post(url_fetch_add, function(error, response, data) {
+      $nobyda.post(url_fetch_add, function (error, response, data) {
         if (error) {
           process.result.push({
             bar: bar.forum_name,
@@ -244,7 +246,7 @@ function checkIsAllProcessed() {
         notify += `【${res.bar}】已经签到，当前等级${res.level},经验${res.exp}
 `;
       } else {
-        notify += `【${res.bar}】${res.errorCode==0?'签到成功':'签到失败'}，${res.errorCode==0?res.errorMsg:('原因：'+res.errorMsg)}
+        notify += `【${res.bar}】${res.errorCode == 0 ? '签到成功' : '签到失败'}，${res.errorCode == 0 ? res.errorMsg : ('原因：' + res.errorMsg)}
 `;
       }
     }
