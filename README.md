@@ -37,25 +37,25 @@ The above random generated device ID can be found at the bottom of Quantumult X 
 
 #### Surge：
 
-* **[AdRule.list](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRule.list) （More than 8000 ad rules， integrate [lhie1](https://github.com/lhie1/Rules) and [ConnersHua](https://github.com/ConnersHua/Profiles) and added some advertising rules)**
+* **[AdRule.list](https://raw.githubusercontent.com/zcq100/Script/master/Surge/AdRule.list) （More than 8000 ad rules， integrate [lhie1](https://github.com/lhie1/Rules) and [ConnersHua](https://github.com/ConnersHua/Profiles) and added some advertising rules)**
 
-* **[AdRuleTest.list](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/AdRuleTest.list) （More than 1300 ad rules，This rule is modified from [Scomper](https://github.com/scomper/Surge). Because the original author stopped maintenance, so take over the optimization and delete some normal rules, only for testing**)
+* **[AdRuleTest.list](https://raw.githubusercontent.com/zcq100/Script/master/Surge/AdRuleTest.list) （More than 1300 ad rules，This rule is modified from [Scomper](https://github.com/scomper/Surge). Because the original author stopped maintenance, so take over the optimization and delete some normal rules, only for testing**)
 
-* **[RewriteRules.sgmodule](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/RewriteRules.sgmodule) （More than 700 ad rewrite module, integrate [lhie1](https://github.com/lhie1/Rules)、[ConnersHua](https://github.com/ConnersHua/Profiles)、[onewayticket255](https://github.com/onewayticket255/Surge-Script) and [Choler](https://github.com/Choler/Surge/tree/master/Ruleset).  you need to open MITM and trust the certificate.)**
+* **[RewriteRules.sgmodule](https://raw.githubusercontent.com/zcq100/Script/master/Surge/Module/RewriteRules.sgmodule) （More than 700 ad rewrite module, integrate [lhie1](https://github.com/lhie1/Rules)、[ConnersHua](https://github.com/ConnersHua/Profiles)、[onewayticket255](https://github.com/onewayticket255/Surge-Script) and [Choler](https://github.com/Choler/Surge/tree/master/Ruleset).  you need to open MITM and trust the certificate.)**
 
-* **[Download.list](https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Download.list) (Integrate some BT, Thunder, download shunt rules)**
+* **[Download.list](https://raw.githubusercontent.com/zcq100/Script/master/Surge/Download.list) (Integrate some BT, Thunder, download shunt rules)**
 
 * **Because [ConnersHua](https://github.com/ConnersHua/Profiles) ad rules are already included in this rule, you don't need to repeatedly add.**
 
 #### Quantumult X：
 
-* **[AdRule.list](https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list) （More than 7000 ad rules, This rule is modified from [lhie1](https://github.com/lhie1/Rules)，and delete [ConnersHua](https://github.com/ConnersHua/Profiles) duplicate)**
+* **[AdRule.list](https://raw.githubusercontent.com/zcq100/Script/master/QuantumultX/AdRule.list) （More than 7000 ad rules, This rule is modified from [lhie1](https://github.com/lhie1/Rules)，and delete [ConnersHua](https://github.com/ConnersHua/Profiles) duplicate)**
 
-* **[AdRuleTest.list](https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRuleTest.list)（More than 1300 ad rules，This rule is modified from [Scomper](https://github.com/scomper/Surge). Because the original author stopped maintenance, so take over the optimization and delete some normal rules, only for testing**)
+* **[AdRuleTest.list](https://raw.githubusercontent.com/zcq100/Script/master/QuantumultX/AdRuleTest.list)（More than 1300 ad rules，This rule is modified from [Scomper](https://github.com/scomper/Surge). Because the original author stopped maintenance, so take over the optimization and delete some normal rules, only for testing**)
 
-* **[Rewrite_lhie1.conf](https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf)（More than 400 ad rewrite rules, integrate [lhie1](https://github.com/lhie1/Rules)、[onewayticket255](https://github.com/onewayticket255/Surge-Script)、[Choler](https://github.com/Choler/Surge/tree/master/Ruleset), and delete [ConnersHua](https://github.com/ConnersHua/Profiles) duplicate，you need to open MITM and trust the certificate)**
+* **[Rewrite_lhie1.conf](https://raw.githubusercontent.com/zcq100/Script/master/QuantumultX/Rewrite_lhie1.conf)（More than 400 ad rewrite rules, integrate [lhie1](https://github.com/lhie1/Rules)、[onewayticket255](https://github.com/onewayticket255/Surge-Script)、[Choler](https://github.com/Choler/Surge/tree/master/Ruleset), and delete [ConnersHua](https://github.com/ConnersHua/Profiles) duplicate，you need to open MITM and trust the certificate)**
 
-* **[Js.conf](https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf) (Remote script subscription, only compatible with QX1.0.10 (313) and above)**
+* **[Js.conf](https://raw.githubusercontent.com/zcq100/Script/master/QuantumultX/Js.conf) (Remote script subscription, only compatible with QX1.0.10 (313) and above)**
 
 * **Note !!! Note !!! Note !!! Unlike the Surge rule, the Quantumult X rule does not include the [ConnersHua](https://github.com/ConnersHua/Profiles) ad rules, you can add it yourself.**
 
@@ -106,6 +106,7 @@ In the following disclaimer :
 * [@onewayticket255](https://github.com/onewayticket255)
 * [@Choler](https://github.com/Choler)
 * [@ConnersHua](https://github.com/ConnersHua)
+* [@NobyDa](https://github.com/NobyDa)
 
 ## License
 
